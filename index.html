@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@700&family=Raleway:wght@400;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style/main.css">
+  </head>
+  <body>
+    <header class="header p-4 box-shadow-sm">
+        <div class="container">
+          <div class="header-wrapper d-flex flex-wrap align-items-center justify-content-between">
+            <div class="header__logo"></div>
+            <div class="header-menu d-flex flex-wrap align-items-center justify-content-between">
+                <ul class="header-nav d-flex flex-wrap align-items-center justify-content-between list-unstyled m-0 text-secondary">
+                    <li class="header-nav__item text-danger me-4">Home</li>
+                    <li class="header-nav__item me-4">Our services</li>
+                    <li class="header-nav__item me-4">About Us</li>
+                    <li class="header-nav__item me-5">What's new?</li>
+                </ul>
+                <button class="header__button-search border-0 me-2 d-flex align-items-center justify-content-center">
+                    <img src="/images/zoom.svg" alt="Button searc">
+                </button>
+                <button class="header__button-contact border-0">Contact Us</button>
+            </div>
+          </div>
+        </div>
+    </header>
+    <section class="hero p-4">
+      <div class="container px-4 py-5">
+        <div class="hero-block row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="hero__picture col-7">
+            <img src="/images/hero.svg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" loading="lazy">
+          </div>
+          <div class="hero__text col-5">
+            <h1 class="hero__title display-5 mb-3">A trusted provider of <span class="fw-bold">courier services.</span></h1>
+            <p class="hero__descr lead col-8 mb-5">We deliver your products safely to your home in a reasonable time.</p>
+            <button type="button" class="hero__btn btn btn-lg">Get started &xrarr;</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="services pb-5">
+      <div class="container">
+        <p class="services__title fs-3 text-center text-uppercase mb-1">Services</p>
+        <h2 class="services__subtitle fs-3 text-center fw-bold mb-5">Our services for you</h2>
+        <div class="services-block d-flex justify-content-between align-items-center flex-wrap">
+          <div class="card d-flex flex-column align-items-center pt-5">
+            <img src="/images/services.svg" class="card__img card-img-top mb-3" alt="services">
+            <div class="card-body px-5">
+              <h5 class="card-title fw-bolder text-center mb-4">Business Services</h5>
+              <p class="card-text">We give you complete reliable delivery for your company.  We will take full responsibility of the deliveries.</p>
+              <ul class="card__list ps-3">
+                <li>Corporate goods</li>
+                <li>Shipment</li>
+                <li>Accesories</li>
+              </ul>
+              <a href="#" class="card__btn btn btn-light btn-lg">Learn more</a>
+            </div>
+          </div>
+          <div class="card d-flex flex-column align-items-center pt-5">
+            <img src="/images/services.svg" class="card__img card-img-top mb-3" alt="services">
+            <div class="card-body px-5">
+              <h5 class="card-title fw-bolder text-center mb-4">Statewide Services</h5>
+              <p class="card-text">Offering home delivery around the city, where your products will be at your doorstep within 48-72 hours.</p>
+              <ul class="card__list ps-3">
+                <li>Personal items</li>
+                <li>Percels</li>
+                <li>Documents</li>
+              </ul>
+              <a href="#" class="card__btn btn btn-lg">Learn more</a>
+            </div>
+          </div>
+          <div class="card d-flex flex-column align-items-center pt-5">
+            <img src="/images/services.svg" class="card__img card-img-top mb-3" alt="services">
+            <div class="card-body px-5">
+              <h5 class="card-title fw-bolder text-center mb-4">Personal Services</h5>
+              <p class="card-text">You can trust us to safely deliver your most sensitive documents to the specific area in a short time.</p>
+              <ul class="card__list ps-3">
+                <li>Gifts</li>
+                <li>Package</li>
+                <li>Documents</li>
+              </ul>
+              <a href="#" class="card__btn btn btn-light btn-lg">Learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="statistics">
+      <div class="container">
+        <div class="statistics-block d-flex justify-content-between align-items-center flex-wrap">
+          <div class="statistics-block__item d-flex flex-column align-items-center">
+            <img src="/images/statistic_1.svg" alt="">
+            <span class="fs-3 mt-1">26+</span>
+            <p>Awards won</p>
+          </div>
+          <div class="statistics-block__item d-flex flex-column align-items-center">
+            <img src="/images/statistic_2.svg" alt="">
+            <span class="fs-3 mt-1">65+</span>
+            <p>States covered</p>
+          </div>
+          <div class="statistics-block__item d-flex flex-column align-items-center">
+            <img src="/images/statistic_3.svg" alt="">
+            <span class="fs-3 mt-1">689K+</span>
+            <p>Happy clients</p>
+          </div>
+          <div class="statistics-block__item d-flex flex-column align-items-center">
+            <img src="/images/statistic_4.svg" alt="">
+            <span class="fs-3 mt-1">130M+</span>
+            <p>Goods delivered</p>
+          </div>
+          <div class="statistics-block__item d-flex flex-column align-items-center">
+            <img src="/images/statistic_5.svg" alt="">
+            <span class="fs-3 mt-1">130M+</span>
+            <p>Business hours</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="delivery">
+      <div class="container">
+        <div class="delivery-block d-flex flex-column justify-content-center align-items-center">
+          <div class="delivery__play d-flex justify-content-center align-items-center mb-4">
+            <img src="/images/delivery_play.svg" alt="">
+          </div>
+          <h4 class="text-uppercase fs-4 mb-3">Fastest delivery</h4>
+          <p class="text-light text-center"> You can get your valuable item in the fastest period of
+            time with safety. Because your emergency
+            is our first priority.</p>
+        </div>
+      </div>
+    </section>
+    <section class="testimonial">
+      <h3 class="testimonial__title text-uppercase text-center fw-bold">Testimonial</h3>
+      <p class="testimonial__descr text-center fs-3">Our Awesome Clients</p>
+      <div id="carouselExampleIndicators" class="carousel slide "data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="testimonial-feedback p-5 bg-light rounded-4">
+              <h4 class="testimonial-feedback__title fw-bold">Fantastic service!</h4>
+              <p class="testimonial-feedback__text">I purchased a phone from an e-commerce site, and this courier service provider assisted me in getting it delivered to my home. I received my phone within one day, and I was really satisfied with their service when I received it. They are really quick and dependable. They give me with the option of real-time delivery status, which allows me to track the progress of my goods delivery. I get a lot of questions from call center support and key account managers. They come highly recommended. Confidently say that they are really reliable.</p>
+              <div class="testimonial-mark d-flex justify-content-between">
+                <div class="testimonial-mark__start">
+                  <img src="/images/star.svg" alt="">
+                  <img src="/images/star.svg" alt="">
+                  <img src="/images/star.svg" alt="">
+                  <img src="/images/star.svg" alt="">
+                  <img src="/images/star.svg" alt="">
+                </div>
+                <div class="testimonial-mark__author d-flex">
+                  <div class="testimonial-mark__info d-flex flex-column align-items-end pe-4">
+                    <span class="testimonial-mark__name fw-bold">Yves Tanguy</span>
+                    <span class="testimonial-mark__address fw-light">Chief Executive, DLF</span>
+                  </div>
+                  <img src="/images/avatar_left.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="testimonial-feedback p-5 bg-light rounded-4">
+              <h4 class="testimonial-feedback__title fw-bold">Fantastic service!</h4>
+              <p class="testimonial-feedback__text">I purchased a phone from an e-commerce site, and this courier service provider assisted me in getting it delivered to my home. I received my phone within one day, and I was really satisfied with their service when I received it. They are really quick and dependable. They give me with the option of real-time delivery status, which allows me to track the progress of my goods delivery. I get a lot of questions from call center support and key account managers. They come highly recommended. Confidently say that they are really reliable.</p>
+              <div class="testimonial-mark d-flex justify-content-between">
+                <div class="testimonial-mark__start">
+                  <img src="/images/star.svg" alt="">
+                  <img src="/images/star.svg" alt="">
+                  <img src="/images/star.svg" alt="">
+                  <img src="/images/star.svg" alt="">
+                  <img src="/images/star.svg" alt="">
+                </div>
+                <div class="testimonial-mark__author d-flex">
+                  <div class="testimonial-mark__info d-flex flex-column align-items-end pe-4">
+                    <span class="testimonial-mark__name fw-bold">Yves Tanguy</span>
+                    <span class="testimonial-mark__address fw-light">Chief Executive, DLF</span>
+                  </div>
+                  <img src="/images/avatar_middle.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="testimonial-feedback p-5 bg-light rounded-4">
+              <h4 class="testimonial-feedback__title fw-bold">Fantastic service!</h4>
+              <p class="testimonial-feedback__text">I purchased a phone from an e-commerce site, and this courier service provider assisted me in getting it delivered to my home. I received my phone within one day, and I was really satisfied with their service when I received it. They are really quick and dependable. They give me with the option of real-time delivery status, which allows me to track the progress of my goods delivery. I get a lot of questions from call center support and key account managers. They come highly recommended. Confidently say that they are really reliable.</p>
+              <div class="testimonial-mark d-flex justify-content-between">
+                <div class="testimonial-mark__start">
+                  <img src="/images/star.svg" alt="">
+                  <img src="/images/star.svg" alt="">
+                  <img src="/images/star.svg" alt="">
+                  <img src="/images/star.svg" alt="">
+                  <img src="/images/star.svg" alt="">
+                </div>
+                <div class="testimonial-mark__author d-flex">
+                  <div class="testimonial-mark__info d-flex flex-column align-items-end pe-4">
+                    <span class="testimonial-mark__name fw-bold">Yves Tanguy</span>
+                    <span class="testimonial-mark__address fw-light">Chief Executive, DLF</span>
+                  </div>
+                  <img src="/images/avatar_middle.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <section class="contact d-flex justify-content-center">
+      <div class="contact-info me-4">
+        <img src="/images/contact.png" alt="">
+        <p class="contact-info__text text-uppercase fs-4">Request a callback</p>
+        <h4 class="contact-info__title fs-1">We will contact in the shortest time.</h4>
+        <p class="contact-info__time fs-4">Monday to Friday, 9am-5pm.</p>
+      </div>
+      <div class="contact-form pt-5">
+        <form action="#" class="contact-form__list d-flex flex-column align-items-start">
+          <input type="text" placeholder="Name" class="contact-form__field ps-3 mb-3 rounded-3">
+          <input type="mail" placeholder="Email" class="contact-form__field ps-3 mb-3 rounded-3">
+          <textarea name="message" cols="30" rows="5" class="contact-form__textarea ps-3 pt-2 mb-5" placeholder="Message"></textarea>
+          <button type="button" class="contact-form__button btn btn-warning btn-lg rounded-3">Send Message</button>
+        </form>
+      </div>
+    </section>
+    <section class="find">
+      <div class="container d-flex flex-column align-items-center">
+        <h4 class="find__title text-uppercase text-warning">Find Us</h4>
+        <p class="find__subtitle fs-3 text-black mb-5">Access us easily</p>
+        <div class="find-block d-flex mb-5">
+          <div class="find-block__map d-flex justify-content-center align-items-center">
+            <img src="/images/location.svg" alt="">
+          </div>
+          <div class="find-contact bg-light w-100 d-flex justify-content-center align-items-start flex-column ps-5">
+            <p class="find-contact__title mb-5">Contact with us</p>
+            <ul class="find-contact__info list-unstyled fw-normal mb-5">
+              <li class="find-contact__item mb-3">
+                <img src="/images/find_1.svg" alt="" class="me-2">
+                2277 Lorem Ave, San Diego, CA 22553</li>
+              <li class="find-contact__item mb-3">
+                <img src="/images/find_2.svg" alt="" class="me-2">
+                Monday - Friday: 10 am - 10pm<br/>
+                Sunday: 11 am - 9pm</li>
+              <li class="find-contact__item mb-3">
+                <img src="/images/find_3.svg" alt="" class="me-2">
+                info@quriarbox.com</li>
+            </ul>
+            <ul class="find-social list-unstyled d-flex">
+              <li class="find-social__item me-4"></li>
+              <li class="find-social__item me-4"></li>
+              <li class="find-social__item"></li>
+            </ul>
+          </div>
+        </div>
+        <button type="button" class="find_btn btn btn-warning btn-lg p-3 px-5">Call us to delivery  123-456789</button>
+      </div>
+    </section>
+    <section class="footer">
+      <div class="container">
+        <footer class="pt-5">
+          <div class="footer-first row py-5 text-light d-flex align-items-center justify-content-between">
+            <div class="col-md-5">
+              <h3 class="text-light">Get an update every week</h3>
+              <p>We ensure that your product is delivered in the safest possible manner, at the correct location, at the right time.</p>
+            </div>
+            <div class="col-md-5 mb-3">
+              <form>
+                <h5 class="text-uppercase text-warning fs-6">Subscribe to newsletter</h5>
+                <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                  <label for="newsletter1" class="visually-hidden">Email address</label>
+                  <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                  <button class="btn btn-warning" type="button">Subscribe</button>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="row d-flex justify-content-between">
+            <div class="col-6 col-md-5 mb-3">
+              <img src="/images/logo__footer.png" alt="" class="mb-3">
+              <p class="text-white-50">The most trusted Courier<br/>company in your area.</p>
+            </div>
+            <div class="col-2 col-md-2 mb-3">
+              <h5 class="text-light mb-4">Other links</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Blogs</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Movers website</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Traffic Update</a></li>
+              </ul>
+            </div>
+            <div class="col-2 col-md-2 mb-3">
+              <h5 class="text-light mb-4">Services</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Corporate goods</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Artworks</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Documents</a></li>
+              </ul>
+            </div>
+            <div class="col-2 col-md-2 mb-3">
+              <h5 class="text-light mb-4">Customer Care</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About Us</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Contact US</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Get Update</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="d-flex flex-column flex-sm-row justify-content-between py-3 border-top text-light">
+            <p class="fw-normal">All rights reserved &copy; Your Company, 2021</p>
+            <p>Made with heart by <span class="text-warning">ThemeWagon</span></p>
+          </div>
+        </footer>
+      </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </body>
+</html>
